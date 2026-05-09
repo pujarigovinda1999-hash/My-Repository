@@ -14,12 +14,21 @@ WARNING:
 */
 
 -- Drop and recreate the 'DataWarehouse' database
-
+DROP DATABASE IF EXISTS Datawarehouse;
 
 -- Create the 'DataWarehouse' database
-CREATE DATABASE DataWarehouse;
+CREATE DATABASE "Datawarehouse"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LOCALE_PROVIDER = 'libc'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
 
-USE DataWarehouse;
+-- Disconnect users
+SELECT pg_terminate_backend(pid)
+FROM pg_stat_activity
+WHERE datname = 'Datawarehouse'; -- To terminate any other user's connections manually:
 
 -- Create Schemas
 CREATE SCHEMA bronze;
