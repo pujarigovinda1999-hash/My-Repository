@@ -7,6 +7,7 @@ This project demonstrates how raw data is transformed into **business-ready insi
 
 ## 📌 Project Summary
 
+- Project Link https://github.com/pujarigovinda1999-hash/My-Repository/tree/main
 - Built a **Medallion Architecture (Bronze → Silver → Gold)** data warehouse  
 - Developed **ETL pipelines** to clean and transform raw data  
 - Designed **star schema (fact & dimension tables)**  
