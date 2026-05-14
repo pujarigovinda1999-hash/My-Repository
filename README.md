@@ -107,4 +107,5 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 Hi there! I'm **Govinda Pujari**, I’m an **Data Analyst** and passionate learner on a mission to share knowledge and make working with data enjoyable and engaging!
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
-**https://www.linkedin.com**
+**https://www.linkedin.com**[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourName-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+
