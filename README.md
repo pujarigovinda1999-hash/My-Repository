@@ -7,7 +7,9 @@ This project demonstrates how raw data is transformed into **business-ready insi
 
 ## 📌 Project Summary
 
-- Project Link https://github.com/pujarigovinda1999-hash/My-Repository/tree/main
+- Project Link :- pujarigovinda1999-hash/My-Repository: Building a modern Data Warehouse with Postgres SQL, including ETL processes, data modeling and analytics.
+<img width="81" height="25" alt="image" src="https://github.com/user-attachments/assets/5893a235-02a9-425d-8eb7-9aa278a4951e" />
+
 - Built a **Medallion Architecture (Bronze → Silver → Gold)** data warehouse  
 - Developed **ETL pipelines** to clean and transform raw data  
 - Designed **star schema (fact & dimension tables)**  
