@@ -117,3 +117,5 @@ SELECT
     END AS avg_monthly_spend
 
 FROM customer_aggregation;
+
+SELECT * FROM gold.report_customers;
