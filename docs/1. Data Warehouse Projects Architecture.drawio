@@ -1,10 +1,10 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="ZrjQhGUY37E48ZPWKjMn">
-    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="783" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GemHSe6toY64YUJuNd34-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;opacity=0;shadow=0;fillStyle=solid;" value="&lt;font&gt;Sources&lt;/font&gt;" vertex="1">
+        <mxCell id="GemHSe6toY64YUJuNd34-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;opacity=0;shadow=0;fillStyle=solid;fontStyle=1" value="&lt;font&gt;Sources&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="75" y="90" as="geometry" />
         </mxCell>
         <mxCell id="GemHSe6toY64YUJuNd34-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=light-dark(#808080, #ededed);" value="" vertex="1">
@@ -13,13 +13,13 @@
         <mxCell id="GemHSe6toY64YUJuNd34-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=light-dark(#808080, #ededed);" value="" vertex="1">
           <mxGeometry height="550" width="760" x="300" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="GemHSe6toY64YUJuNd34-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;opacity=0;shadow=0;" value="Data Warehouse&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="GemHSe6toY64YUJuNd34-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;opacity=0;shadow=0;fontStyle=1" value="Data Warehouse&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="220" x="562" y="100" as="geometry" />
         </mxCell>
         <mxCell id="GemHSe6toY64YUJuNd34-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=light-dark(#808080, #ededed);" value="" vertex="1">
           <mxGeometry height="550" width="197" x="1113" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="GemHSe6toY64YUJuNd34-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=default;strokeColor=none;opacity=0;gradientColor=none;shadow=0;" value="Consume" vertex="1">
+        <mxCell id="GemHSe6toY64YUJuNd34-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=default;strokeColor=none;opacity=0;gradientColor=none;shadow=0;fontStyle=1" value="Consume" vertex="1">
           <mxGeometry height="30" width="110" x="1160" y="90" as="geometry" />
         </mxCell>
         <mxCell id="GemHSe6toY64YUJuNd34-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=light-dark(#4d3d3d, #6d5100);fontSize=20;" value="Bronze Layer" vertex="1">
