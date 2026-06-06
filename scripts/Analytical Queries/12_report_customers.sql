@@ -32,7 +32,7 @@ WITH base_query AS (
         f.sales_amount,
         f.quantity,
         c.customer_key,
-        c.Customer_number,
+        c.customer_number,
         CONCAT(c.first_name, ' ', c.last_name) AS customer_name,
         DATE_PART(
             'year',
@@ -43,13 +43,13 @@ WITH base_query AS (
         ON c.customer_key = f.customer_key
     WHERE f.order_date IS NOT NULL
 ),
-/*---------------------------------------------------------------------------
-2) Customer Aggregations: Summarizes key metrics at the customer level
----------------------------------------------------------------------------*/
+
+-- 2) Customer Aggregations: Summarizes key metrics at the customer level
+
 customer_aggregation AS (
     SELECT
         customer_key,
-        Customer_number,
+        customer_number,
         customer_name,
         age,
         COUNT(DISTINCT order_number) AS total_orders,
@@ -67,14 +67,14 @@ customer_aggregation AS (
     FROM base_query
     GROUP BY
         customer_key,
-        Customer_number,
+        customer_number,
         customer_name,
         age
 )
 
 SELECT
     customer_key,
-    Customer_number,
+    customer_number,
     customer_name,
     age,
 
